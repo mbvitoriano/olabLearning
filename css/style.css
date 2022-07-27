@@ -1057,7 +1057,7 @@ label {
   background: linear-gradient(65deg, #E47D42 0, #E47D42 100%);
 }
 .button-primary:hover {
-  background: #5564ff;
+  background: #E47D42;
   background: linear-gradient(65deg, #000000 0, #000000 100%);
 }
 .button-block {
