@@ -952,7 +952,7 @@ label {
 .textarea:active,
 .textarea:focus {
   outline: none;
-  border-color: #4353ff;
+  border-color: #000000;
 }
 .input[disabled],
 .textarea[disabled] {
