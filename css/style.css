@@ -1293,6 +1293,8 @@ main {
 .footer-social-links li a {
   padding: 8px;
 }
+
+
 @media (min-width: 641px) {
   .site-footer::before {
     height: 202px;
@@ -1342,6 +1344,7 @@ main {
 
 }
 
+
 @media (max-width: 641px) {
   .gifOlab  { display: none;} 
   .logo { display: none;}
@@ -1351,14 +1354,7 @@ main {
    }
 }
 
-@media (max-width: 844px) {
-  .gifOlab  { display: none;} 
-  .logo { display: none;}
-  .gifOlabMobile {
-    width: 100%;
-    height: 100%;
-   }
-}
+
 
 
 .spatialData {
