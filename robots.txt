@@ -1,2 +1,7 @@
-User-Agent: *
-Disallow:
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: http://www.olablearning.com/sitemap.xml
