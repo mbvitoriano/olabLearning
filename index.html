@@ -56,18 +56,22 @@
                 <p class="hero-paragraph is-revealing">
                   Teste
                 </p>
-                <div class="hero-form field field-grouped is-revealing">
+                <div class="hero-form field field-grouped is-revealing" id="subscribeForm">
                   <div class="control control-expanded">
 
-					<form action="https://gmail.us14.list-manage.com/subscribe/post" method="POST" target="hiddenFrame">
+                    <iframe name="hiddenFrame" class="hide"></iframe>
+
+
+					<form action="https://gmail.us14.list-manage.com/subscribe/post" method="POST" target="hiddenFrame" id ="formSubscribe">
 						<input type="hidden" name="u" value="eba453fa701d94cc2de81e44a">
 						<input type="hidden" name="id" value="09222111c1">
-						<input class="input" type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" placeholder="Seu melhor e-mail&hellip;">
+						<input class="input" id="emailForm" type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" placeholder="Seu melhor e-mail&hellip;">
                   </div>
                   <div class="control">
-					<input type="submit" class="button button-primary button-block" name="submit" value="INSCREVA-SE">
-                  </div>
+					<input type="submit" class="button button-primary button-block" id="submitBtn" name="submitBtn" value="INSCREVA-SE">          
+                  </div>                  
                 </div>
+                <script src="./js/index.js"></script>
               </div>
               <div class="hero-illustration"></div>
 			   <img class="gifOlab"src="./src/OLAB.gif">
@@ -241,5 +245,5 @@
         </div>
       </footer>
     </div>
-  </body>
+  </body>  
 </html>
