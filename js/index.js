@@ -1,9 +1,10 @@
 const btn = document.getElementById('submitBtn');
+const form = document.getElementById("subscribeForm")
 
 btn.onclick = function() {myFunction()};
 
 function myFunction() {
   document.getElementById("formSubscribe").submit();
-  document.getElementById("subscribeForm").innerHTML = "E-mail Cadastrado com Suceso!";
-  
+  setTimeout(() => {  document.getElementById("subscribeForm").innerHTML = "E-mail Cadastrado com Suceso!";; }, 1500);
+    
 };
