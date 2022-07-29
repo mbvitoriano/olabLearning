@@ -9,6 +9,6 @@ function myFunction() {
   document.getElementById("formSubscribe").submit();
   setTimeout(() => {
     document.getElementById("subscribeForm").innerHTML =
-      "E-mail Cadastrado com Suceso!";
+      "E-mail cadastrado com sucesso. <br>Bem-vindo(a) a bordo 🚀";
   }, 1500);
 }
