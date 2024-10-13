@@ -1256,7 +1256,7 @@ main {
 }
 .site-footer a:hover,
 .site-footer a:active {
-  color: #fff;
+  color: #e47d42;
   text-decoration: underline;
 }
 .footer-bg,
@@ -1383,4 +1383,24 @@ main {
   left: -1px;
   width: 1px;
   height: 1px;
+}
+
+.footer-social-links {
+  display: inline-flex;
+  gap: 10px; /* Espaçamento entre os ícones */
+  padding: 0;
+  margin: 0;
+}
+
+.footer-social-links li {
+  display: inline-block;
+}
+
+.footer-social-links a {
+  display: inline-block;
+}
+
+.footer-social-links svg {
+  width: 16px; /* Tamanho do SVG */
+  height: 16px;
 }
